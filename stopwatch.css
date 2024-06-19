@@ -1,0 +1,76 @@
+body{
+   background-color: black;
+   color: white;
+
+}
+
+.stopwatch{
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: double underline;
+}
+
+.main{
+    background-color: aquamarine;
+    height: 250px;
+    width: 250px;
+    border:1rem solid white;
+    border-radius: 50%;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.main h1{
+    font-size: 4rem; 
+}
+
+.controls{
+    color: white;
+    height:80px;
+    width: 450px;
+    border: 0.5 rem solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(81, 255, 0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+
+.controls div button{
+   
+    font-size: 1.7rem;
+    border-radius: 2rem;
+}
+
+.laps {
+
+    background-color: rgba(1, 0, 0, 0.8);
+    color: white;
+    flex: auto;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;  
+    margin: 2rem auto 0;
+  
+
+}
+
+.laps p {
+    margin: 5px 0;
+    font-size: 1.5rem;
+    
+}
+
+.controls div button:hover{
+    background-color: black;
+    color: white;
+}
